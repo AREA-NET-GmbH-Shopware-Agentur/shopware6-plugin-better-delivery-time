@@ -2,7 +2,7 @@
 
 Lieferzeiten sind ein entscheidender Faktor für die Kaufentscheidung Ihrer Kunden. Ungenaue oder ungenaue Angaben können zu Frustration und Unzufriedenheit führen. Mit unserem leistungsstarken Plugin bringen Sie die Lieferzeitberechnungen in Ihrem Shop auf das nächste Level und bieten Ihren Kunden ein optimiertes Einkaufserlebnis.
 
-![Optimierte Lieferzeitberechnung ohne Wochenende für Showpare 6](docs/images/01.png)
+![Optimierte Lieferzeitberechnung ohne Wochenende für Showpare 6](mkdocs/docs/images/01.png)
 
 ## Unterstützte Shopware Versionen und Changelog
 
@@ -19,9 +19,11 @@ Stand 14.08.2024:
 ## Dokumentation und Support
 
 * [Online-Handbuch](https://www.area-net.de/shopware-hilfe/optimierte-lieferzeit-nur-werktage)
-* Kostenpflichtiger Support
-    * [Online-Formular](https://www.area-net.de/kontakt)
-    * [shopware@area-net.de](mailto:shopware@area-net.de)
+
+Wir bieten zu unseren Open-Source-Plugins kostenpflichtigen Support and
+
+* [Online-Formular](https://www.area-net.de/kontakt)
+* [shopware@area-net.de](mailto:shopware@area-net.de)
 
 ## Shopware Theme und Plugins
 

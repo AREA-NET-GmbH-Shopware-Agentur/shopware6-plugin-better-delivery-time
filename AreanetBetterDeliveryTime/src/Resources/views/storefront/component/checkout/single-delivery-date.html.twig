@@ -1,0 +1,20 @@
+{% block aloha_single_delivery_date %}
+  {% if config('core.cart.showDeliveryTime') and config('AreanetBetterDeliveryTime.config.singleDeliveryDate') and  page.cart.deliveries|length > 0  %}
+    {% set deliveryDate = (page.cart.deliveries|first).deliveryDate %}
+    {% set deliveryDateEarliest = deliveryDate.earliest|format_date('short', locale=app.request.loca) %}
+    {% set deliveryDateLatest = deliveryDate.latest|format_date('short', locale=app.request.local) %}
+    <div class="offcanvas-cart-actions">
+      <p>
+        {% if deliveryDateEarliest != deliveryDateLatest %}
+          <b>{{ 'areanetbetterdeliverytime.deliveryDate' | trans }}</b><br>
+          {{ deliveryDate.earliest|format_date('short', locale=app.request.locale) }} -
+          {{ deliveryDate.latest|format_date('short', locale=app.request.locale) }}
+        {% else %}
+          <b>{{ "areanetbetterdeliverytime.deliverySingleDate"|trans({
+            '%date%': deliveryDateEarliest,
+          })|sw_sanitize }}</b>
+        {% endif %}
+      </p>
+    </div>
+  {% endif %}
+{% endblock %}

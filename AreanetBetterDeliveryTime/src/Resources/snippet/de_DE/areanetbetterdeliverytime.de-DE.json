@@ -1,0 +1,6 @@
+{
+  "areanetbetterdeliverytime": {
+    "deliveryDate": "Lieferzeitraum",
+    "deliverySingleDate": "Lieferung am %date%"
+  }
+}

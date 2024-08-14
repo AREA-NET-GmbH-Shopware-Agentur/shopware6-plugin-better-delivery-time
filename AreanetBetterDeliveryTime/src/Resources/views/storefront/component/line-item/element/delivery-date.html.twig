@@ -1,0 +1,21 @@
+{% sw_extends "@Storefront/storefront/component/line-item/element/delivery-date.html.twig" %}
+
+{% block component_line_item_delivery_date %}
+    {% if not config('AreanetBetterDeliveryTime.config.singleDeliveryDate')%}
+        {{ parent() }}
+    {% endif %}
+{% endblock %}
+
+{% block component_line_item_delivery_date_inner %}
+    {% set  deliveryDateEarliest = deliveryPosition.deliveryDate.earliest|format_date('short', locale=app.request.loca) %}
+    {% set  deliveryDateLatest = deliveryPosition.deliveryDate.latest|format_date('short', locale=app.request.local) %}
+    {% if deliveryDateEarliest != deliveryDateLatest %}
+        {{ parent() }}
+    {% else %}
+        <div class="line-item-delivery-date">
+            {{ "areanetbetterdeliverytime.deliverySingleDate"|trans({
+                '%date%': deliveryDateEarliest,
+            })|sw_sanitize }}
+        </div>
+    {% endif %}
+{% endblock %}

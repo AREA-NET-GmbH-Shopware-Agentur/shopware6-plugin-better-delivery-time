@@ -1,0 +1,6 @@
+{% sw_extends "@Storefront/storefront/page/checkout/summary.html.twig" %}
+
+{% block page_checkout_summary %}
+  {{ parent() }}
+  {% sw_include '@AreanetBetterDeliveryTime/storefront/component/checkout/single-delivery-date.html.twig' %}
+{% endblock %}

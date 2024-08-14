@@ -1,0 +1,6 @@
+{% sw_extends "@Storefront/storefront/component/checkout/offcanvas-cart.html.twig" %}
+
+{% block component_offcanvas_cart_actions %}
+    {% sw_include '@AreanetBetterDeliveryTime/storefront/component/checkout/single-delivery-date.html.twig' %}
+    {{ parent() }}
+{% endblock %}

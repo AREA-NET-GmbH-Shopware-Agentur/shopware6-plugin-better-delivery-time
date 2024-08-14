@@ -1,0 +1,30 @@
+{
+    "name": "areanet/betterdeliverytime",
+    "version": "1.0.0",
+    "description": "Better delivery time calculation",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AreanetBetterDeliveryTime\\": "src/"
+        }
+    },
+    "require": {
+        "shopware/core": "6.6.*"
+    },
+    "extra": {
+        "shopware-plugin-class": "AreanetBetterDeliveryTime\\AreanetBetterDeliveryTime",
+        "label": {
+            "de-DE": "Optimierte Lieferzeit-Berechnung",
+            "en-GB": "Better delivery time calculation"
+        },
+        "description": {
+            "de-DE": "Ausschlu\u00df von Wochenenden und definierbaren Zeitr\u00e4umen aus der Lieferzeit-Berechnung und Standard-Lieferzeit f\u00fcr alle Produkte.",
+            "en-GB": "Exclusion of weekends and definable periods from the delivery time calculation and standard delivery time for all products."
+        },
+        "manufacturerLink": {
+            "de-DE": "www.area-net.de",
+            "en-GB": "www.area-net.de"
+        }
+    }
+}

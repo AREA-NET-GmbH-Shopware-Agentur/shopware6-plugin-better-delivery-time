@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>Basic configuration</title>
+        <title lang="de-DE">Grundeinstellungen</title>
+
+        <input-field type="bool">
+            <name>excludeSaturday</name>
+            <label>Exclude Saturday</label>
+            <label lang="de-DE">Samstag ausschließen</label>
+        </input-field>
+
+        <input-field type="bool">
+            <name>excludeSunday</name>
+            <label>Exclude Sunday</label>
+            <label lang="de-DE">Sonntag ausschließen</label>
+        </input-field>
+
+        <input-field type="bool">
+            <name>singleDeliveryDate</name>
+            <label>Only one delivery date per order</label>
+            <label lang="de-DE">Nur eine Lieferzeit je Bestellung</label>
+        </input-field>
+
+        <input-field type="bool">
+            <name>useDefaultDeliveryDate</name>
+            <label>Use standard shipping method delivery time</label>
+            <label lang="de-DE">Lieferzeit der Standard-Versandart verwenden</label>
+        </input-field>
+
+        <input-field type="bool">
+            <name>disableBuffer</name>
+            <label>Deactivate 1 day buffer for delivery period with the same date (e.g. 13/08/24 - 13/08/24)</label>
+            <label lang="de-DE">1 Tag Puffer bei Lieferzeitraum mit gleichem Datum (z.B. 13.08.24 - 13.08.24) deaktivieren</label>
+        </input-field>
+    </card>
+</config>

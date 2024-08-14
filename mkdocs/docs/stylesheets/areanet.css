@@ -16,3 +16,16 @@
 .md-content a{
     color: #C51833;
 }
+
+.announce_link{
+    color:#FFFFFF !important;
+}
+
+.announce_link:hover{
+    color:#CCCCCC !important;
+}
+
+.md-banner__inner{
+    display: flex;
+    justify-content: space-between;
+}

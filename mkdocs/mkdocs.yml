@@ -2,21 +2,31 @@ site_name: "Shopware Hilfe - Plugin: Optimierte Lieferzeiten"
 repo_url: https://github.com/AREA-NET-GmbH-Shopware-Agentur/shopware6-plugin-better-delivery-time
 theme:
   name: 'material'
+  custom_dir: docs/overrides
   language: 'de'
   favicon: 'images/areanet-favicon.ico'
   logo: 'images/areanet-logo.png'
+  features:
+    - navigation.footer
   palette:
     scheme: default
     primary: custom
+copyright: '<a href="https://www.area-net.de/impressum/">Impressum</a> | <a href="https://www.area-net.de/datenschutz/">Datenschutz</a>'
+extra:
+  generator: false
 extra_css:
   - stylesheets/areanet.css
 plugins:
   - tags
   - mkdocs-versioning:
       version: 1.0.0
-extra:
-  version:
-    provider: mike
+markdown_extensions:
+  - admonition
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
 nav:
   - Beschreibung: index.md
   - Download und Installation: installation.md

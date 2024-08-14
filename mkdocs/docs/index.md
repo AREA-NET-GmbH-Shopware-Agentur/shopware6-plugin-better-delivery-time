@@ -9,7 +9,7 @@ Lieferzeiten sind ein entscheidender Faktor für die Kaufentscheidung Ihrer Kund
 ## Hauptfunktionen des Plugins
 
 * **Wochenenden von der Lieferzeitberechnung ausschließen:** Vermeiden Sie falsche Lieferzeitangaben, indem Sie Samstage und/oder Sonntage von der Berechnung ausschließen. So erhalten Ihre Kunden realistische Lieferdaten, auch bei Bestellungen kurz vor dem Wochenende.
-* **Automatische Standard-Lieferzeit für Produkte ohne spezifische Angabe:** Sparen Sie wertvolle Zeit und Nerven, indem das Plugin automatisch die Lieferzeit der Standard-Versandart des Verkaufskanals anzeigt, wenn bei einem Produkt keine spezifische Lieferzeit hinterlegt ist. Keine leeren Felder mehr – keine verwirrten Kunden!
+* **Automatische Standard-Lieferzeit für Produkte ohne spezifische Angabe:** Sparen Sie wertvolle Zeit und Nerven, indem das Plugin automatisch die Lieferzeit der Standard-Versandart auf der Produktdetailseite anzeigt, wenn bei einem Produkt keine spezifische Lieferzeit hinterlegt ist. Keine fehlenden Angaben mehr – keine verwirrten Kunden!
 * **Erweiterte Lieferzeitangaben in E-Mail-Templates:** Verbessern Sie die Kommunikation mit Ihren Kunden! Unser Plugin stellt Ihnen zusätzliche Variablen für die exakten Lieferzeiten (sowohl für die gesamte Bestellung als auch für einzelne Positionen) in den Bestellbestätigungs-E-Mails zur Verfügung.
 
 ## Warum dieses Plugin unverzichtbar für Ihren Shop ist

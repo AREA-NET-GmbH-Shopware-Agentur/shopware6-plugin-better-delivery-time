@@ -9,7 +9,8 @@ Lieferzeiten sind ein entscheidender Faktor für die Kaufentscheidung Ihrer Kund
 Stand 14.08.2024:
 - **6.6.0.0 - 6.6.5.1**
 - [CHANGELOG](AreanetBetterDeliveryTime/CHANGELOG.md)
-
+- [Download](https://github.com/AREA-NET-GmbH-Shopware-Agentur/shopware6-plugin-better-delivery-time/releases/)
+- 
 ## Hauptfunktionen des Plugins
 
 * **Wochenenden von der Lieferzeitberechnung ausschließen:** Vermeiden Sie falsche Lieferzeitangaben, indem Sie Samstage und/oder Sonntage von der Berechnung ausschließen. So erhalten Ihre Kunden realistische Lieferdaten, auch bei Bestellungen kurz vor dem Wochenende.

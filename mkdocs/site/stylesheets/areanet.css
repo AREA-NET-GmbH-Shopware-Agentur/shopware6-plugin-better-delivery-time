@@ -1,0 +1,31 @@
+:root {
+    --md-primary-fg-color:               #10284a;
+    --md-primary-fg-color--light:        #10284a;
+    --md-primary-fg-color--dark:         #10284a;
+    --md-primary-bg-color:               hsla(0, 0%, 100%, 1);
+    --md-primary-bg-color--light:        hsla(0, 0%, 100%, 0.7);
+
+    --md-accent-fg-color:                #C51833;
+    --md-accent-fg-color--transparent:   #C51833;
+    --md-accent-bg-color:                hsla(0, 0%, 100%, 1);
+    --md-accent-bg-color--light:         hsla(0, 0%, 100%, 0.7);
+
+    --md-typeset-a-color:                var(--md-accent-fg-color);
+}
+
+.md-content a{
+    color: #C51833;
+}
+
+.announce_link{
+    color:#FFFFFF !important;
+}
+
+.announce_link:hover{
+    color:#CCCCCC !important;
+}
+
+.md-banner__inner{
+    display: flex;
+    justify-content: space-between;
+}

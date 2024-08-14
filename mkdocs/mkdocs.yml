@@ -18,8 +18,6 @@ extra_css:
   - stylesheets/areanet.css
 plugins:
   - tags
-  - mkdocs-versioning:
-      version: 1.0.0
 markdown_extensions:
   - admonition
   - pymdownx.critic

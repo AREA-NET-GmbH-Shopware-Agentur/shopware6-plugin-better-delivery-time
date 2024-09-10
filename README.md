@@ -6,8 +6,8 @@ Lieferzeiten sind ein entscheidender Faktor für die Kaufentscheidung Ihrer Kund
 
 ## Unterstützte Shopware Versionen und Changelog
 
-Stand 14.08.2024:
-- **6.6.0.0 - 6.6.5.1**
+Stand 10.09.2024:
+- **6.6.0.0 - 6.6.6.0**
 - [CHANGELOG](AreanetBetterDeliveryTime/CHANGELOG.md)
 - [Download](https://github.com/AREA-NET-GmbH-Shopware-Agentur/shopware6-plugin-better-delivery-time/releases/)
 - 

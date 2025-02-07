@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this plugin will be documented in this file
 
+## [1.1.0] - 2025-02-18
+- Test with 6.5.8.18 and 6.6.9.0
+
 ## [1.0.0] - 2024-08-14
 - Feature: Delivery dates in mail per item
 - Bug: Incorrect calculation if min/max = 1 day

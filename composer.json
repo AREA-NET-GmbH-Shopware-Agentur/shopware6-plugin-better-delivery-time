@@ -1,6 +1,5 @@
 {
     "name": "areanet/betterdeliverytime",
-    "version": "1.1.0",
     "description": "Better delivery time calculation",
     "type": "shopware-platform-plugin",
     "license": "MIT",

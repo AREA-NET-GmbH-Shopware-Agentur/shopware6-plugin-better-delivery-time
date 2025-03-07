@@ -2,7 +2,7 @@
 
 Lieferzeiten sind ein entscheidender Faktor für die Kaufentscheidung Ihrer Kunden. Ungenaue oder ungenaue Angaben können zu Frustration und Unzufriedenheit führen. Mit unserem leistungsstarken Plugin bringen Sie die Lieferzeitberechnungen in Ihrem Shop auf das nächste Level und bieten Ihren Kunden ein optimiertes Einkaufserlebnis.
 
-![Optimierte Lieferzeitberechnung ohne Wochenende für Showpare 6](mkdocs/docs/images/01.png)
+![Optimierte Lieferzeitberechnung ohne Wochenende für Showpare 6](docs/docs/images/01.png)
 
 ## Unterstützte Shopware Versionen und Changelog
 

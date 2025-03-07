@@ -6,13 +6,23 @@ Lieferzeiten sind ein entscheidender Faktor für die Kaufentscheidung Ihrer Kund
 
 ## Unterstützte Shopware Versionen und Changelog
 
-Stand 23.02.2025:
-- **6.5.8(.18) - 6.6.10.1**
+Stand 07.03.2025:
+- **6.5.8(.18) - 6.6.10.2**
 - [CHANGELOG](AreanetBetterDeliveryTime/CHANGELOG.md)
 - [Download](https://github.com/AREA-NET-GmbH-Shopware-Agentur/shopware6-plugin-better-delivery-time/releases/)
 
 Das Plugin wurde mit der letzten 6.5.8.18 getestet.
  
+## Installation
+
+### ZIP-Release
+
+Download des entsprechenden ZIP-Files von der [Release-Seite](https://github.com/AREA-NET-GmbH-Shopware-Agentur/shopware6-plugin-better-delivery-time/releases) und Installation/Upload in der Shopware-Administration unter Erweiterungen.
+
+### Composer
+
+`composer require areanet/betterdeliverytime`
+
 ## Hauptfunktionen des Plugins
 
 * **Wochenenden von der Lieferzeitberechnung ausschließen:** Vermeiden Sie falsche Lieferzeitangaben, indem Sie Samstage und/oder Sonntage von der Berechnung ausschließen. So erhalten Ihre Kunden realistische Lieferdaten, auch bei Bestellungen kurz vor dem Wochenende.

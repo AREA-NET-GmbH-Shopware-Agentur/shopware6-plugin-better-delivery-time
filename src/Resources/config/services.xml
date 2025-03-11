@@ -6,7 +6,7 @@
 
     <services>
         <service id="AreanetBetterDeliveryTime\Core\Checkout\Cart\Delivery\DeliveryBuilder"
-                 decorates="Shopware\Core\Checkout\Promotion\Cart">
+                 decorates="Shopware\Core\Checkout\Cart\Delivery\DeliveryBuilder">
             <argument type="service" id="AreanetBetterDeliveryTime\Core\Checkout\Cart\Delivery\DeliveryDateCalculator" />
             <argument type="service" id="Shopware\Core\System\SystemConfig\SystemConfigService" />
         </service>

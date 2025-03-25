@@ -1,3 +1,6 @@
+name: Run extension verifyer
+run-name: ${{ github.actor }} verify extension
+on: [push]
 jobs:
   check:
     runs-on: ubuntu-24.04

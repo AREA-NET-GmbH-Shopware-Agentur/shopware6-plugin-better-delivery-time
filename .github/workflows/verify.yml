@@ -1,0 +1,16 @@
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    strategy:
+      fail-fast: false
+      matrix:
+        version-selection: [ 'lowest', 'highest']
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check extension
+        uses: shopware/github-actions/extension-verifier@main
+        with:
+          action: check
+          check-against: ${{ matrix.version-selection }}

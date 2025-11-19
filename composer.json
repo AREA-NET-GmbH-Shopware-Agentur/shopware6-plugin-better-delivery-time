@@ -1,7 +1,7 @@
 {
     "name": "areanet/betterdeliverytime",
     "description": "Better delivery time calculation",
-    "version": "1.2.1",
+    "version": "2.0.0",
     "type": "shopware-platform-plugin",
     "license": "MIT",
     "autoload": {
@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "shopware/core": "~6.5.0 || ~6.6.0"
+        "shopware/core": "~6.5.0 || ~6.6.0 || ~6.7.0"
     },
     "extra": {
         "shopware-plugin-class": "AreanetBetterDeliveryTime\\AreanetBetterDeliveryTime",

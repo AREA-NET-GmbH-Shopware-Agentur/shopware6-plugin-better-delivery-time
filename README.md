@@ -8,12 +8,11 @@ Delivery times are a decisive factor in your customers' purchasing decisions. In
 
 ## Unterstützte Shopware Versionen und Changelog
 
-Stand 07.03.2025:
-- **6.5.8(.18) - 6.6.10.2**
+Stand 19.11.2025:
+- **6.5.8 - 6.7.4**
 - [CHANGELOG](AreanetBetterDeliveryTime/CHANGELOG.md)
 - [Download](https://github.com/AREA-NET-GmbH-Shopware-Agentur/shopware6-plugin-better-delivery-time/releases/)
 
-Das Plugin wurde mit der letzten 6.5.8.18 getestet.
  
 ## Installation
 

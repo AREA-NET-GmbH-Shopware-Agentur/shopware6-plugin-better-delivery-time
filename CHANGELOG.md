@@ -2,6 +2,9 @@
 All notable changes to this plugin will be documented in this file
 
 
+## [2.0.0] - 2025-11-19
+- Support for Shopware 6.7
+
 ## [1.2.1] - 2025-03-11
 - Bug: Incorrect service decoration: Shopware\Core\Checkout\Cart\Delivery\DeliveryBuilder
 

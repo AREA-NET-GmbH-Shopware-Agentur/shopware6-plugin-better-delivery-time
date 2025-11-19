@@ -17,6 +17,7 @@
 
         <service id="AreanetBetterDeliveryTime\Subscriber\ProductSubscriber" public="true">
             <argument type="service" id="Shopware\Core\System\SystemConfig\SystemConfigService" />
+            <argument type="service" id="delivery_time.repository"/>
             <tag name="kernel.event_subscriber"/>
         </service>
 
